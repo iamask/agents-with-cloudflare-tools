@@ -54,10 +54,7 @@ CLOUDFLARE_RULESET_ID="your_cloudflare_ruleset_id_here"
 # Google Chat Webhook Configuration
 GOOGLE_CHAT_WEBHOOK_URL="your_google_chat_webhook_url_here"
 
-# R2 Configuration (if needed)
-R2_BUCKET_NAME="your_r2_bucket_name_here"
-R2_ACCESS_KEY_ID="your_r2_access_key_id_here"
-R2_SECRET_ACCESS_KEY="your_r2_secret_access_key_here"
+
 ```
 
 4. Deploy secrets to Cloudflare:
