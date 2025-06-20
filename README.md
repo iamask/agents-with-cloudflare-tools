@@ -94,8 +94,6 @@ npm run deploy
 | `CLOUDFLARE_RULESET_ID`   | Cloudflare ruleset ID for custom rules         | Yes      |
 | `GOOGLE_CHAT_WEBHOOK_URL` | Google Chat webhook URL for messaging          | No       |
 | `R2_BUCKET_NAME`          | R2 bucket name for image storage               | No       |
-| `R2_ACCESS_KEY_ID`        | R2 access key ID                               | No       |
-| `R2_SECRET_ACCESS_KEY`    | R2 secret access key                           | No       |
 
 ## Project Structure
 
