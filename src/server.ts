@@ -219,12 +219,6 @@ export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext) {
     const url = new URL(request.url);
     console.log("[DEBUG] Request received:", url.pathname);
-    //dummy
-    if (url.pathname === "/check-open-ai-key") {
-      return Response.json({
-        success: true,
-      });
-    }
 
     return (
       // Route the request to our agent or return 404 if not found
