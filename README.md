@@ -50,6 +50,19 @@ npm start
 npm run deploy
 ```
 
+## Available Tools
+
+The following tools are available in this chat agent:
+
+- **getWeatherInformation** - Get current weather information for a specified city (requires confirmation)
+- **getLocalTime** - Get the local time for a specified location
+- **generateImage** - Generate an image from a text description using Cloudflare Workers AI
+- **searchPokemon** - Search for Pokémon details by name or ID using the PokeAPI
+- **sendWebhook** - Send a message to a configured webhook URL
+- **callDoWorker** - Call the do-worker Cloudflare Worker and return its response
+- **callgraphqlWorker** - Call the graphql worker to get total user agent information
+- **addCloudflareCustomRule** - Create and add custom rules to Cloudflare using the API
+
 ## Adding New Tools
 
 Add new tools in `tools.ts` using the tool builder:
